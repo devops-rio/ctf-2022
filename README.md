@@ -3,12 +3,12 @@
 
 ## Desafio
 1. Em uma parte do codigo em React existe **Replace Here!!!** substitua pelo seu **Nome Completo**.
-1. Criar o **Dockerfile** usando **multi-stage build**
-2. Enviar a imagem para um **registry**, preferenciamente DockerHub
-3. Criar 2 Networks
-3.1. **Network Front End** temos acesso a porta do container  externamente
-3.2.**Network do DB** teremos acesso somente pelo container de FrontEnd ou da Network de DB, sem acesso externo ao banco
-4. Subir o container da Aplicação e do Banco usando **Docker Compose** ou **Docker Swarm**
+2. Criar o **Dockerfile** usando **multi-stage build**
+3. Enviar a imagem para um **registry**, preferenciamente DockerHub
+4. Criar 2 Networks
+4.1. **Network Front End** temos acesso a porta do container  externamente
+4.2.**Network do DB** teremos acesso somente pelo container de FrontEnd ou da Network de DB, sem acesso externo ao banco
+5. Subir o container da Aplicação e do Banco usando **Docker Compose** ou **Docker Swarm**
 
 ## Referencias
 ```
